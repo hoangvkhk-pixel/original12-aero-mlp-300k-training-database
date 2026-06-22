@@ -10,7 +10,7 @@ It includes:
   and plotting scripts in `src/` and `scripts/`
 - trained 300k MLP model bundles in `models/`
 - R2, MAE, RMSE, history, and correlation artifacts in `analysis/`
-- topview and AVL/MLP comparison figures in `figures/`
+- six-output prediction comparison figures in `figures/`
 
 ## Dataset
 
@@ -107,13 +107,14 @@ Batch entry points are in `scripts/`, especially:
 
 ## Figures
 
-Topview comparison artifacts:
+Six-output test-set comparison figures:
 
-- `figures/analysis_topview_mlp300k_vs_original_avl_best.png`
-- `figures/analysis_topview_mlp300k_vs_original_avl_best_normal.png`
-- `figures/analysis_topview_mlp300k_vs_original_avl_best_duck.png`
+- `figures/comparison_6_outputs_normal_300k.png`
+- `figures/comparison_6_outputs_duck_300k.png`
 
-![MLP300k vs AVL best](figures/analysis_topview_mlp300k_vs_original_avl_best.png)
+![Normal 300k six-output comparison](figures/comparison_6_outputs_normal_300k.png)
+
+![Duck 300k six-output comparison](figures/comparison_6_outputs_duck_300k.png)
 
 ## Provenance
 
@@ -124,4 +125,3 @@ Source portable folder used to assemble this repository:
 Metric source:
 
 `D:\OptimizationNewMLP\analysis_300k_model_metrics_20260618`
-
