@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+runs/
+runs_*/
+gen_*/
+tmp_*/
+*.rar
+
+# Raw CSV exports larger than GitHub's normal per-file limit are documented in
+# DATA_MANIFEST.md. Use the compact NPY export zip in data/ for the committed
+# 300k training database.
+data/*.csv
+
